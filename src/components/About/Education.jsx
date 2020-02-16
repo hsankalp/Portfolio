@@ -23,7 +23,7 @@ const Education = () => {
           <Grid item>
             <IconLabel
               icon={<School fontSize="inherit" />}
-              label={`${college.name} - ${college.college}`}
+              label={college.name}
               variant="subtitle1"
             ></IconLabel>
           </Grid>

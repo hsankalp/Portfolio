@@ -3,7 +3,7 @@ export const data = [
     role: "Full Stack Software Engineer",
     start: "Sep 2019",
     end: "Present",
-    company: "Ford Motor Company - Autonomous Vehicles (Perficient Inc.)",
+    company: "Ford - AV (Perficient)",
     team: "Simulation Services",
     description:
       "Simulation platform that mimics real world scenarios for autonomous vehicles moving on the road for other teams to test their features in a risk-free environment.",
@@ -22,7 +22,7 @@ export const data = [
     role: "Full Stack Software Engineer",
     start: "Mar 2017",
     end: "Sep 2019",
-    company: "Ford Motor Company - Mobility Platform (Perficient Inc.)",
+    company: "Ford - Mobility (Perficient)",
     team: "Subscription Management and Orchestration",
     description:
       "Subscription management platform that orchestrates the events for activation of single or multiple features in a vehicle.",
@@ -43,7 +43,7 @@ export const data = [
     role: "System Analyst Intern",
     start: "Aug 2016",
     end: "Mar 2017",
-    company: "Stanford University - Administrative Systems",
+    company: "Stanford University",
     team: "Procure to Pay",
     description:
       "Support and enhancement of the Procure-to-Pay EBS application that manages the Stanford supplies.",
