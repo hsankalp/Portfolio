@@ -1,26 +1,16 @@
 import React from "react";
-import { Grid, Typography, Divider } from "@material-ui/core";
+import { Grid, Typography } from "@material-ui/core";
 import IconLabel from "../IconLabel";
 import { Work, Build, LocationOn, Today } from "@material-ui/icons";
 import { data } from "../../data/experienceData";
-import { makeStyles } from "@material-ui/core/styles";
-
-const useStyles = makeStyles({
-  divider: {
-    backgroundColor: "white"
-  }
-});
+import Heading from "../Heading";
 
 const Experience = () => {
-  const classes = useStyles();
   return (
     <Grid container direction="column" spacing={3}>
       <Grid item>
-        <Typography variant="h5" color="primary">
-          Experience
-        </Typography>
+        <Heading value="Experience" />
       </Grid>
-      <Divider className={classes.divider} variant="fullWidth"></Divider>
 
       {data.map(job => (
         <Grid item container direction="column" spacing={2} key={job.company}>

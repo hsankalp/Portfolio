@@ -1,24 +1,14 @@
 import React from "react";
-import { Grid, Typography, Divider, LinearProgress } from "@material-ui/core";
+import { Grid, Typography, LinearProgress } from "@material-ui/core";
 import { data } from "../../data/skillsData";
-import { makeStyles } from "@material-ui/core/styles";
-
-const useStyles = makeStyles({
-  divider: {
-    backgroundColor: "white"
-  }
-});
+import Heading from "../Heading";
 
 const Skills = () => {
-  const classes = useStyles();
   return (
     <Grid container direction="column" spacing={3}>
       <Grid item>
-        <Typography variant="h5" color="primary">
-          Skills
-        </Typography>
+        <Heading value="Skills" />
       </Grid>
-      <Divider className={classes.divider} variant="fullWidth"></Divider>
 
       <Grid item container direction="column" spacing={3}>
         {data.map(skill => (
