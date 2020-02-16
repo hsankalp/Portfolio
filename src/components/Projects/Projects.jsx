@@ -3,6 +3,8 @@ import { Grid, Typography } from "@material-ui/core";
 import Heading from "../Heading";
 import { data } from "../../data/projectsData";
 import { makeStyles } from "@material-ui/core/styles";
+import IconLabel from "../IconLabel";
+import { Build } from "@material-ui/icons";
 
 const useStyles = makeStyles({
   projects: {
@@ -23,6 +25,13 @@ const Projects = () => {
             <Typography variant="h6" color="secondary">
               {project.name}
             </Typography>
+          </Grid>
+          <Grid item>
+            <IconLabel
+              icon={<Build fontSize="inherit" />}
+              label={project.tools.join(", ")}
+              variant="subtitle1"
+            ></IconLabel>
           </Grid>
           <Grid item>
             <Typography variant="subtitle1" align="justify">

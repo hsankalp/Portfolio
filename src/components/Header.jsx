@@ -10,7 +10,10 @@ const useStyles = makeStyles({
   },
   navLink: {
     textDecoration: "none",
-    color: "white"
+    color: "white",
+    "&:hover": {
+      color: "darkcyan"
+    }
   }
 });
 

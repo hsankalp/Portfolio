@@ -8,7 +8,8 @@ import About from "./About/About";
 
 const useStyles = makeStyles({
   main: {
-    height: "93vh"
+    height: "93vh",
+    overflowX: "hidden"
   }
 });
 
