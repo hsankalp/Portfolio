@@ -14,7 +14,7 @@ export const data = [
       "AWS Services (Lambdas, SQS, SNS, DynamoDB, API Gateway, Cloud Formation)"
     ],
     description:
-      "I am currently working on the AV Simulation Platform that mimics real world scenarios for autonomous vehicles moving on the road for the transportation-as-a-service (TaaS) teams to test their features in a risk-free environment. We are currently migrating the existing spring boot application to serverless architecture with the help of AWS Lambda functions, Nodejs and Java. The user facing web application that allows users to test the TaaS features is being built using Reactjs and Mapbox. We follow eXtreme Programming (XP) practices including Pair/Mob programming and Test-first/Test Driven Development (TDD) to achieve continuous delivery and better quality of code."
+      "I am currently working on the AV Simulation Platform that provides the ability for any software engineer that is consuming the AV TaaS (Transport as a Service) platform to rapidly emulate real-world trip scenarios in their own TaaS based applications. The simulation service is being built using serverless architecture with the help of AWS Lambda functions and Java. The user facing web application that allows users to emulate the scenarios is being built using Reactjs and Mapbox. We follow eXtreme Programming (XP) practices including Pair/Mob programming and Test-first/Test Driven Development (TDD) to achieve continuous delivery and better quality of code."
   },
   {
     name: "Subscription Management and Orchestration for Ford Mobility",
@@ -29,7 +29,7 @@ export const data = [
       "PCF"
     ],
     description:
-      "I previously worked on Subscription Services Platform (SSP) that orchestrated the events for subscription and enrollment of features in a vehicle. We worked on migrating the existing monolith application to the Microservice architecture using Java, Spring Boot and Pivotal Cloud Foundry. The application was split into 6 smaller loosely coupled independent services (that could be deployed and scaled individually) based on their business capabilities. We followed eXtreme Programming (XP) practices including Pair/Mob programming and Test-first/Test Driven Development (TDD) to achieve continuous delivery and better quality of code. We setup automated workflows for Continuous Integration and Delivery with the help of Pivotal’s Concourse CI"
+      "I previously worked on Subscription Services Platform (SSP) that orchestrated the events for subscription and enrollment of features in a vehicle. We worked on migrating the existing monolith application to the Microservice architecture using Java, Spring Boot and Pivotal Cloud Foundry. The application was split into smaller loosely coupled independent services (that could be deployed and scaled individually) based on their business capabilities. We followed eXtreme Programming (XP) practices including Pair/Mob programming and Test-first/Test Driven Development (TDD) to achieve continuous delivery and better quality of code. We setup automated workflows for Continuous Integration and Delivery with the help of Pivotal’s Concourse CI"
   },
   {
     name: "Web application for monitoring microservices",
