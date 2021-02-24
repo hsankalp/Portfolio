@@ -2,7 +2,7 @@ import React from "react";
 import { Grid, Typography, Button } from "@material-ui/core";
 import { Phone, GetApp, Mail } from "@material-ui/icons";
 import profileImage from "../../images/resume-profile.PNG";
-import resume from "../../resume/resume.pdf";
+import resume from "../../resume/SankalpHeranjalResume.pdf";
 import IconLabel from "../IconLabel";
 import { makeStyles } from "@material-ui/core/styles";
 
