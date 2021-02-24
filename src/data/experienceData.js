@@ -1,8 +1,28 @@
 export const data = [
   {
+    role: "Frontend Software Engineer",
+    start: "Aug 2020",
+    end: "Present",
+    company: "Vroom",
+    team: "",
+    description: "",
+    tools: [
+      "TypeScript",
+      "React",
+      "NextJS",
+      "Jest",
+      "React Testing Library",
+      "Styled Components",
+      "Storybook",
+      "MobX",
+    ],
+    location: "Detroit, MI - US",
+  },
+  ,
+  {
     role: "Full Stack Software Engineer",
     start: "Sep 2019",
-    end: "Present",
+    end: "Aug 2020",
     company: "Ford - AV (Perficient)",
     team: "Simulation Services",
     description:
@@ -12,11 +32,12 @@ export const data = [
       "React",
       "Nodejs",
       "Jest",
+      "React Testing Library",
       "Java",
       "Serverless",
-      "AWS"
+      "AWS",
     ],
-    location: "Detroit, MI - US"
+    location: "Detroit, MI - US",
   },
   {
     role: "Full Stack Software Engineer",
@@ -35,9 +56,9 @@ export const data = [
       "JavaScript (ES6)",
       "React",
       "Jest",
-      "PCF"
+      "PCF",
     ],
-    location: "Taylor, MI - US"
+    location: "Taylor, MI - US",
   },
   {
     role: "System Analyst Intern",
@@ -48,6 +69,6 @@ export const data = [
     description:
       "Support and enhancement of the Procure-to-Pay EBS application that manages the Stanford supplies.",
     tools: ["Oracle Application Framework", "Java", "PL/SQL"],
-    location: "Palo Alto, CA - US"
-  }
+    location: "Palo Alto, CA - US",
+  },
 ];
