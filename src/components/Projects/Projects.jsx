@@ -8,8 +8,8 @@ import { Build } from "@material-ui/icons";
 
 const useStyles = makeStyles({
   projects: {
-    padding: "30px"
-  }
+    padding: "30px",
+  },
 });
 
 const Projects = () => {
@@ -19,7 +19,7 @@ const Projects = () => {
       <Grid item>
         <Heading value="Work Projects" />
       </Grid>
-      {data.map(project => (
+      {data.map((project) => (
         <Fragment key={project.name}>
           <Grid item>
             <Typography variant="h6" color="secondary">
@@ -32,6 +32,15 @@ const Projects = () => {
               label={project.tools.join(", ")}
               variant="subtitle1"
             ></IconLabel>
+          </Grid>
+          <Grid item>
+            <ul>
+              {project.description.map((line, idx) => (
+                <li key={idx}>
+                  <Typography variant="body1">{line}</Typography>
+                </li>
+              ))}
+            </ul>
           </Grid>
         </Fragment>
       ))}

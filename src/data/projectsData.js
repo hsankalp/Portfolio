@@ -11,8 +11,15 @@ export const data = [
       "Material UI",
       "Java",
       "Serverless",
-      "AWS Services (Lambdas, SQS, SNS, DynamoDB, API Gateway, Cloud Formation)"
-    ]
+      "AWS Services (Lambdas, SQS, SNS, DynamoDB, API Gateway, Cloud Formation)",
+    ],
+    description: [
+      "Create new features, functionality and capabilities on the Vroom ecommerce app (Product, Catalog, Homepage, Checkout) using Javascript, React, Typescript, MobX and NextJS.",
+      "Develop efficient and reusable UI components within our Design System using Storybook.",
+      "Develop applications using a micro frontend architecture.",
+      "Perform bug fixes and code reviews.",
+      "Collaborate with designers to ensure designs are efficient and technically sound.",
+    ],
   },
   {
     name: "Subscription Management and Orchestration for Ford Mobility",
@@ -24,8 +31,16 @@ export const data = [
       "Microservices",
       "Redis",
       "RabbitMQ",
-      "PCF"
-    ]
+      "PCF",
+    ],
+    description: [
+      "Design and develop cloud based serverless functions using AWS lambda, API Gateway, SQS, SNS and DynamoDB.",
+      "Develop User facing Single Page Application to run Autonomous Vehicles",
+      "Simulations using Javascript, React, Material UI and Mapbox (for maps).",
+      "Convert class-based components into functional components with React Hooks.",
+      "Evaluate performance of lambda functions using Java and Node on the backend.",
+      "Mentor new software engineers, review code and enforce coding standards",
+    ],
   },
   {
     name: "Web application for monitoring microservices",
@@ -36,8 +51,15 @@ export const data = [
       "HTML",
       "CSS",
       "Bootstrap",
-      "PCF"
-    ]
+      "PCF",
+    ],
+    description: [
+      "Design and develop microservice based applications using Java, Spring Boot and Pivotal Cloud Foundry.",
+      "Handle synchronous as well as asynchronous communication between microservices using Rest APIs and RabbitMQ messaging.",
+      "Perform Pair Programming and Test-Driven Development (TDD).",
+      "Setup automated workflows for Continuous Integration and Delivery using Concourse.",
+      "Create monitoring dashboard to monitor the subscriptions, messaging queues, health of services and errors using Javascript, React and Bootstrap.",
+    ],
   },
   {
     name: "Web application to replay Dead-Letter-Queue (DLQ) messages",
@@ -48,7 +70,10 @@ export const data = [
       "HTML",
       "CSS",
       "Bootstrap",
-      "PCF"
-    ]
-  }
+      "PCF",
+    ],
+    description: [
+      "Support and enhancement of the Procure-to-Pay EBS application that manages Stanford supplies using Java and PL/SQL.",
+    ],
+  },
 ];
