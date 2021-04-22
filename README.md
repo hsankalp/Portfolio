@@ -12,3 +12,4 @@ http://hsankalp.github.io/portfolio
 
 - Implement Smooth Scroll
 - Add personal projects
+
