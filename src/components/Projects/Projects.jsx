@@ -33,11 +33,6 @@ const Projects = () => {
               variant="subtitle1"
             ></IconLabel>
           </Grid>
-          <Grid item>
-            <Typography variant="subtitle1" align="justify">
-              {project.description}
-            </Typography>
-          </Grid>
         </Fragment>
       ))}
     </Grid>
