@@ -4,14 +4,8 @@ export const data = [
     start: "Aug 2020",
     end: "Present",
     company: "Vroom",
-    team: "",
-    description: [
-      "Create new features, functionality and capabilities on the Vroom ecommerce app (Product, Catalog, Homepage, Checkout) using Javascript, React, Typescript, MobX and NextJS.",
-      "Develop efficient and reusable UI components within our Design System using Storybook.",
-      "Develop applications using a micro frontend architecture.",
-      "Perform bug fixes and code reviews.",
-      "Collaborate with designers to ensure designs are efficient and technically sound.",
-    ],
+    team:
+      "Search & Discovery, Demand & Whitelabel, Ecommerce - Checkout Self Serve, Ecommerce - Value Added Products",
     tools: [
       "TypeScript",
       "React",
@@ -30,14 +24,6 @@ export const data = [
     end: "Aug 2020",
     company: "Ford - AV (Perficient)",
     team: "Simulation Services",
-    description: [
-      "Design and develop cloud based serverless functions using AWS lambda, API Gateway, SQS, SNS and DynamoDB.",
-      "Develop User facing Single Page Application to run Autonomous Vehicles",
-      "Simulations using Javascript, React, Material UI and Mapbox (for maps).",
-      "Convert class-based components into functional components with React Hooks.",
-      "Evaluate performance of lambda functions using Java and Node on the backend.",
-      "Mentor new software engineers, review code and enforce coding standards",
-    ],
     tools: [
       "JavaScript (ES6)",
       "React",
@@ -56,13 +42,6 @@ export const data = [
     end: "Sep 2019",
     company: "Ford - Mobility (Perficient)",
     team: "Subscription Management and Orchestration",
-    description: [
-      "Design and develop microservice based applications using Java, Spring Boot and Pivotal Cloud Foundry.",
-      "Handle synchronous as well as asynchronous communication between microservices using Rest APIs and RabbitMQ messaging.",
-      "Perform Pair Programming and Test-Driven Development (TDD).",
-      "Setup automated workflows for Continuous Integration and Delivery using Concourse.",
-      "Create monitoring dashboard to monitor the subscriptions, messaging queues, health of services and errors using Javascript, React and Bootstrap.",
-    ],
     tools: [
       "Java",
       "Spring",
@@ -82,9 +61,6 @@ export const data = [
     end: "Mar 2017",
     company: "Stanford University",
     team: "Procure to Pay",
-    description: [
-      "Support and enhancement of the Procure-to-Pay EBS application that manages Stanford supplies using Java and PL/SQL.",
-    ],
     tools: ["Oracle Application Framework", "Java", "PL/SQL"],
     location: "Palo Alto, CA - US",
   },
